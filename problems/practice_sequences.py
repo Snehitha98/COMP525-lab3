@@ -1,8 +1,8 @@
 """
 practice_sequences.py
 Get more practice with sequences
-Mihaela Sabin
-Created February 10, 2020
+Snehitha Mamidi
+February 17, 2020
 """
 
 
@@ -50,5 +50,11 @@ if __name__ == '__main__':
     p = Practice()
     input1 = ['january', 'february']
     input2 = [31, 28]
+    result = p.months_and_days(input1, input2)
+    print(f'months_and_days({input1}, {input2}) returns {result}')
+
+    p = Practice()
+    input1 = ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
+    input2 = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
     result = p.months_and_days(input1, input2)
     print(f'months_and_days({input1}, {input2}) returns {result}')
